@@ -5,10 +5,10 @@ EmotionEdge est un système de simulation de détection d’émotions en temps r
 Le système permet de visualiser sur un **dashboard les émotions détectées par des caméras simulées**.
 
 ## 2. Objectifs :
-- Simuler un flux vidéo et détecter les visages -> Noeud Edge.
-- Analyser les émotions avec un modèle IA léger -> Noeud Fog.
+- Simuler un flux vidéo et détecter les visages -> **Noeud Edge**.
+- Analyser les émotions avec un modèle IA léger -> **Noeud Fog**.
 - Stocker les statistiques dans Firebase pour une récupération en temps réel.
-- Afficher les résultats sur un dashboard interactif -> Streamlit.
+- Afficher les résultats sur un dashboard interactif -> **Streamlit**.
 
 ## 2. Architecture du systéme 
 
@@ -46,7 +46,7 @@ Les images sont envoyées au Fog via sockets.
 ### 2. Fog
 Reçoit les images du Edge, analyse les émotions et envoie les résultats à Firebase.
 ```bash
-python fog_processing.py
+python fog_server.py
 ```
 Utilise un modèle pré-entraîné
 
