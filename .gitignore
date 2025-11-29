@@ -18,5 +18,6 @@ __pycache__/
 # Fichiers de cache
 *.cache/
 
-# Fichiers de logs
-*.log
+# Firebase Private Key
+serviceAccountKey.json
+serviceAccountKey*.json
