@@ -10,7 +10,7 @@ Le système permet de visualiser sur un **dashboard les émotions détectées pa
 - Stocker les statistiques dans Firebase pour une récupération en temps réel.
 - Afficher les résultats sur un dashboard interactif -> **Streamlit**.
 
-## 2. Architecture du systéme 
+## 3. Architecture du systéme 
 
 ### Flux de données :
 
@@ -30,7 +30,7 @@ Le système permet de visualiser sur un **dashboard les émotions détectées pa
 
 -**Firebase → Dashboard** : récupération en temps réel avec Streamlit.
 
-## 3.Utilisation
+## 4.Utilisation
 
 
 ### 1.Edge
