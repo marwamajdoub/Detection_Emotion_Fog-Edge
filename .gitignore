@@ -1,0 +1,22 @@
+# Environnement virtuel
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Fichiers IDE
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
+
+# Fichiers de configuration locaux
+.env
+
+# Fichiers de cache
+*.cache/
+
+# Fichiers de logs
+*.log
