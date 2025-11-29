@@ -1,8 +1,8 @@
 ﻿# EmotionEdge: Système de Détection d’Émotions en Temps Réel
 
 ## 1. Description du Projet
-EmotionEdge est un système de simulation de détection d’émotions en temps réel utilisant une architecture Edge + Fog + Cloud (Firebase), sans matériel physique.
-Le système permet de visualiser sur un dashboard les émotions détectées par des caméras simulées.
+EmotionEdge est un système de simulation de détection d’émotions en temps réel utilisant une architecture **Edge** + **Fog** + **Cloud** (Firebase), sans matériel physique.
+Le système permet de visualiser sur un **dashboard les émotions détectées par des caméras simulées**.
 
 ## 2. Objectifs :
 - Simuler un flux vidéo et détecter les visages -> Noeud Edge.
