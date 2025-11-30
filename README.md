@@ -29,6 +29,8 @@ Le système permet de visualiser sur un **dashboard les émotions détectées pa
 -**Fog → Firebase** : via Firebase Admin SDK (Python).
 
 -**Firebase → Dashboard** : récupération en temps réel avec Streamlit.
+![Architecture EmotionEdge](architecture.png)
+
 
 ## 4.Utilisation
 
@@ -61,3 +63,4 @@ streamlit run dashboard.py
 Affiche les graphiques et tableaux des émotions détectées.
 ```
 - **dashboard**: `http://localhost:8501/`
+
